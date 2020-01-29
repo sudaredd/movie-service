@@ -24,6 +24,14 @@
         <module>../movie-rating-service</module>
     </modules>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.10</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
