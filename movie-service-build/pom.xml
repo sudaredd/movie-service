@@ -22,16 +22,9 @@
         <module>../movie-catalog-service</module>
         <module>../movie-info-service</module>
         <module>../movie-rating-service</module>
+        <module>../movie-eureka-server</module>
     </modules>
 
-	<dependencies>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.10</version>
-			<scope>provided</scope>
-		</dependency>
-	</dependencies>
 	<build>
 		<plugins>
 			<plugin>
